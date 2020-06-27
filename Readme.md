@@ -18,4 +18,4 @@ So, this app is to predict if a person were in titanic would survive or not.
 
 
 
- 
+ # surviving-a-disaster
