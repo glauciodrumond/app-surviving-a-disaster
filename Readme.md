@@ -10,12 +10,7 @@ the passenger survived or not.
 
 So, this app is to predict if a person were in titanic would survive or not. 
 
-## Installation
+## License
+MIT License
 
-
-## How to use
-
-
-
-
- # surviving-a-disaster
+Copyright (c) 2020 Glaucio Drumond
