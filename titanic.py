@@ -66,6 +66,7 @@ Sex_male = 1 if Sex_Male == "Male" else 0
 st.subheader("Travelling with:")
 s = st.selectbox("Sibling or Spouse?", ("Choose", "Yes", "No"))
 if s == "Yes":
+    Sibsp = 0
     SibSp = st.number_input('How many?', value=data.SibSp.min())
 else:
     SibSp = 0
@@ -98,7 +99,7 @@ if c == "Second":
     Pclass_3 = 0
     Fare = 13.0
 
-if c == "Third":
+if c == "Third" or c == "Class":
     Pclass_2 = 0
     Pclass_3 = 1
     Fare = 7.0
@@ -117,7 +118,7 @@ st.write(
     "**Choose one:**")
 
 e = st.selectbox("", ("City", "Cherbourg", "Queenstown", "Southampton"))
-if e == "Cherbourg":
+if e == "Cherbourg" or e == "City":
     Embarked_Q = 0
     Embarked_S = 0
 
